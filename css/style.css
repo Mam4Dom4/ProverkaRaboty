@@ -1,0 +1,88 @@
+html {height: 100%;}
+body {height: 100%; margin: 0; background-repeat: no-repeat; background-attachment: fixed; font-family: Brush Script MT, Brush Script Std, cursive;}
+.t{height: max-content;}
+
+header {background: linear-gradient( #424242, #212121); color: #fff; padding: 10px; display: flex; justify-content: space-between; align-items: center;}
+header .logo img {max-width: 100px;}
+nav ul {list-style: none; display: flex;}
+nav ul li {margin-right: 230px;}
+.foto {width: 200px;height: 300px; border-radius: 6px;}
+.foto1 {width: 200px;height: 170px; border-radius: 6px;}
+.href{color: #F0DC82;font-size: 22px;}
+.href1{color: #FFFFFF;font-size: 18px;}
+.recent-ads {text-align: center;padding: 0px; background-color: #fff; margin: 20px auto; max-width:1400px; border-radius: 8px;}
+.recent-ads h2 {color: #2d2d2e; padding-top: 30px;}
+.recent-ads .slider-container {display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; margin-top: 20px;}
+.slide {width: 300px; height: 470px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; margin: 10px; background-color: #fff;}
+.slide2 {width: 300px; height: 470px; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 8px; margin: 10px; background-color: #fff;}
+.slide img {width: 100%;height: auto;border-radius: 6px;}
+.slide2 img {width: 63%;height: auto;border-radius: 6px;}
+.details-button {display: block;background: linear-gradient( #424242, #212121);color: #F0DC82;text-decoration: none;padding: 8px 12px;border-radius: 4px;margin-top: 10px;text-align: center;}
+.details-button:hover {background-color: #2980b9;}
+.quick-search {text-align: center;margin: 20px auto;max-width: 600px;}
+.quick-search input {padding: 10px;width: 60%;box-sizing: border-box; font-family: Brush Script MT, Brush Script Std, cursive;}
+.quick-search button {padding: 7px;background-color: rgba(255, 235, 59, 0.24); border-color: rgba(255, 235, 59, 0.24);color: #fff;border: none;cursor: pointer;width: 23%;box-sizing: border-box;font-family: Brush Script MT, Brush Script Std, cursive; }
+.quick-search button:hover {background-color: #9e9260;}
+.company-facts {text-align: center;padding: 20px;background-color: #fff;margin: 20px auto;max-width: 800px;border-radius: 8px;}
+.animal-cards {text-align: center;margin: 20px auto;max-width: 1000px;display: flex;flex-wrap: wrap;justify-content: space-around;}
+.animal-card {width: 30%;margin-bottom: 20px;border: 1px solid #ccc;padding: 10px;box-sizing: border-box;background-color: #fff;border-radius: 8px;}
+.search-form {text-align: center;margin: 20px auto;max-width: 600px;}
+.search-form form {display: flex;flex-wrap: wrap;justify-content: space-between;}
+.search-form label {width: 45%;}
+.search-form input,.search-form button {width: 100%;padding: 10px;box-sizing: border-box;margin-top: 10px;}
+.reviews {text-align: center;padding: 20px;background-color: #fff;margin: 20px auto;max-width: 650px;border-radius: 8px;}
+.subscribe-form {text-align: center;margin: 20px auto;max-width: 600px;}
+.subscribe-form form {display: flex;flex-wrap: wrap;justify-content: space-between;}
+.subscribe-form label {width: 45%;}
+.subscribe-form input,.subscribe-form button {width: 100%;padding: 10px;box-sizing: border-box;margin-top: 10px;}
+footer {background-color: #505050; color: #fff; padding: 10px; text-align: center; position: relative; bottom: 0; width: auto;}
+footer nav ul {display: flex; justify-content: center; list-style: none; padding: 0;}
+footer nav ul li {margin: 0 10px;}
+
+.text-c {text-align: center;}
+.text-l {text-align: left;}
+.text-r {text-align: right}
+.text-j {text-align: justify;}
+.texta {font-family: Brush Script MT, Brush Script Std, cursive;}
+.text-whitesmoke {color: whitesmoke}
+.text-darkyellow {color: rgba(255, 235, 59, 0.432)}
+.line-b {border-bottom: 1px solid #FFEB3B !important;}
+.button {border-radius: 3px;}
+.form-button {background-color: rgba(255, 235, 59, 0.24); border-color: rgba(255, 235, 59, 0.24); color: #e6e6e6;}
+.form-button:hover,.form-button:focus,.form-button:active,.form-button.active,.form-button:active:focus,.form-button:active:hover,.form-button.active:hover,.form-button.active:focus {background-color: rgba(255, 235, 59, 0.473); border-color: rgba(255, 235, 59, 0.473); color: #e6e6e6;}
+.button-l {width: 100% !important;}
+.margin-g {margin: 15px;}
+.margin-g-sm {margin: 10px;}
+.margin-g-md {margin: 20px;}
+.margin-g-lg {margin: 30px;}
+.margin-l {margin-left: 15px;}
+.margin-l-sm {margin-left: 10px;}
+.margin-l-md {margin-left: 20px;}
+.margin-l-lg {margin-left: 30px;}
+.margin-r {margin-right: 15px;}
+.margin-r-sm {margin-right: 10px;}
+.margin-r-md {margin-right: 20px;}
+.margin-r-lg {margin-right: 30px;}
+.margin-t {margin-top: 15px;}
+.margin-t-sm {margin-top: 10px;}
+.margin-t-md {margin-top: 20px;}
+.margin-t-lg {margin-top: 30px;}
+.margin-b {margin-bottom: 15px;}
+.margin-b-sm {margin-bottom: 10px;}
+.margin-b-md {margin-bottom: 20px;}
+.margin-b-lg {margin-bottom: 30px;}
+.form-control,.border-line {background-color: #5f5f5f; background-image: none; border: 1px solid #424242; border-radius: 1px; color: inherit; display: block; padding: 6px 12px; transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s; width: 93%;}
+.form-control:focus,.border-line:focus {border-color: #FFEB3B; background-color: #616161; color: #e6e6e6;}
+.form-control,.form-control:focus {box-shadow: none;}
+.form-control::-webkit-input-placeholder { color: #BDBDBD; }
+.container-content {background-color: #3a3a3aa2; color: inherit; padding: 15px 20px 20px 20px; border-color: #FFEB3B; border-image: none; border-style: solid solid none; border-width: 1px 0;}
+.main-bg {background: #424242; background: linear-gradient( #424242, #212121);}
+.login-container {max-width: 400px; z-index: 100; margin: 0 auto; padding-top: 100px;}
+.login.login-container {width: 300px;}
+.wrapper.login-container {margin-top: 140px;}
+.logo-badge {color: #e6e6e6;font-size: 80px;font-weight: 800;letter-spacing: -10px;margin-bottom: 0;}
+.h1text{ color: white;}
+.container-content1{background-color: #3a3a3aa2; color: inherit; padding: px 20px 20px 20px; border-color: #FFEB3B; border-image: none; border-style: solid solid none; border-width:  0 8px 8px 10px;}
+.buttong{background-color: rgba(255, 235, 59, 0.24); border-color: rgba(255, 235, 59, 0.24); color: #e6e6e6;}
+footer .imgfuuter{border-radius: 15px; width: 105px;}
+.divbr{margin-top: 120px ;}
